@@ -10,14 +10,17 @@ let km = prompt("scrivi i kilometri che vuoi percorrere")
 let età = prompt("scrivi la tua età")
 let costoBiglietto = km * 0.21
 
+
 if(età >= 65 ){
-    console.log(costoBiglietto * 40 / 100)
+let anziani =(costoBiglietto * 40 / 100)
+console.log(anziani.toFixed)
 } 
 else if( età <= 18 ){
-    console.log(costoBiglietto * 20 / 100)
+let giovini =(costoBiglietto * 20 / 100)
+console.log(giovini.toFixed)
 }
 else(
-    console.log(costoBiglietto)
+    console.log(costoBiglietto.toFixed)
 )
 
 
