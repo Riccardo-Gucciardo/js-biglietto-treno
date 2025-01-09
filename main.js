@@ -13,14 +13,14 @@ let costoBiglietto = km * 0.21
 
 if(età >= 65 ){
 let anziani =(costoBiglietto * 40 / 100)
-console.log(anziani.toFixed)
+console.log(anziani.toFixed(2))
 } 
 else if( età <= 18 ){
 let giovini =(costoBiglietto * 20 / 100)
-console.log(giovini.toFixed)
+console.log(giovini.toFixed(2))
 }
 else(
-    console.log(costoBiglietto.toFixed)
+    console.log(costoBiglietto.toFixed(2))
 )
 
 
